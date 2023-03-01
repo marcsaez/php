@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de ejemplo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form method="post" action="post.php">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+  
+    <label for="correu">Correu electronic:</label>
+    <input type="text" id="correu" name="correu" required><br><br>
+    
+    <label for="url">URL:</label>
+    <input type="url" id="url" name="url" placeholder="Escriu la URL de la teva pàgina web"><br><br>
+     
+    <label for="data">Data:</label>
+    <input type="date" id="data" name="data"><br><br>
+     
+    <label for="temps">Temps:</label>
+    <input type="time" id="temps" name="temps"><br><br>
+     
+    <label for="datahora">Data i hora:</label>
+    <input type="datetime-local" id="datahora" name="datahora"><br><br>
+     
+    <label for="mes">Mes:</label>
+    <input type="month" id="mes" name="mes"><br><br>
+     
+    <label for="setmana">Setmana:</label>
+    <input type="week" id="setmana" name="setmana"><br><br>
+     
+    <label for="numero">Número:</label>
+    <input type="number" id="numero" name="numero" min="-10" max="10"><br><br>
+     
+    <label for="telefon">Telèfon:</label>
+    <input type="tel" id="telefon" name="telefon"><br><br>
+     
+    <label for="cerca">Paraula de recerca:</label>
+    <input type="search" id="cerca" name="cerca"><br><br>
+     
+    <label for="color">Color favorit:</label>
+    <input type="color" id="color" name="color"><br><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
