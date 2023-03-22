@@ -1,0 +1,2 @@
+INSERT INTO users (nombre_usuario, puntos, correo, dinero, contraseña)
+VALUES ('ejemplo', 0, 'ejemplo@ejemplo.com', 0.00, bcrypt('password'));

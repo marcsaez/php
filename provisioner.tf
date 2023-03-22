@@ -15,6 +15,7 @@ resource "null_resource" "archive" {
   }
   provisioner "remote-exec" {
     inline = [
+      "sleep 60",
       "sudo apt-get update"
     ]
   }
@@ -58,7 +59,7 @@ resource "null_resource" "move" {
   provisioner "remote-exec" {
     inline = [
       "sudo rm /var/www/html/index.html",
-      "sudo cp ~/definitivo/index.html ~/definitivo/style.css ~/definitivo/post.php /var/www/html/.",
+      "sudo cp ~/definitivo/web/* /var/www/html/.",
       "bash ~/definitivo/mysql.sh",
       "sudo systemctl reload apache2"
     ]
