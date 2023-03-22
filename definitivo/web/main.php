@@ -31,8 +31,39 @@
     <link rel="stylesheet" href="style.css"></head>
 </head>
 <body>
-    <p>username: <?php echo $user ?></p>
-    <p>puntos: <?php echo $row['puntos'] ?> </p>    
-    <a href="logout.php">Cerrar sesión</a>
+    <nav>
+        <div>
+            <p class="ses">username: <?php echo $user ?></p>
+            <p class="ses">puntos: <?php echo $row['puntos'] ?> </p>    
+        </div>
+        <a href="logout.php">Cerrar sesión</a>
+    </nav>
+    <div class="container">
+      <div class="square">
+        <img src="terraform-logo.png" alt="Imagen 1">
+        <p>Descripción de la imagen 1</p>
+
+      </div>
+      <div class="square">
+        <img src="imagen2.jpg" alt="Imagen 2">
+        <p>Descripción de la imagen 2</p>
+      </div>
+      <div class="square">
+        <img src="imagen3.jpg" alt="Imagen 3">
+        <p>Descripción de la imagen 3</p>
+      </div>
+      <div class="square">
+        <img src="yt.png" alt="Imagen 4">
+        <p>Descripción de la imagen 4</p>
+      </div>
+      <div class="square">
+        <img src="yt.png" alt="Imagen 5">
+        <p>Descripción de la imagen 5</p>
+      </div>
+      <div class="square">
+        <img src="yt.png" alt="Imagen 5">
+        <p>Descripción de la imagen 6</p>
+      </div>
+    </div>
 </body>
 </html>

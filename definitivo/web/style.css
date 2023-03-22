@@ -1,13 +1,53 @@
-/* Estilos para la página en general */
 html {
   height: 100%;
   background: radial-gradient(ellipse at bottom, #5091DD 0%, #030617 100%);
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 10%;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+nav a{
+  text-decoration: none;
+  color: #030617;
+  border: 1px solid #646464;
+  padding: 10px;
+  height: 20%;
+  background-color: #9b9b9b;
+}
+
+.container{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 80vh;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  height: 50%;
+  font-size: 15px;
+  background-color: #030617;
+}
+
+.square img {
+  margin-top: 5px;
+  width: 60%;
+}
+
 body {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   line-height: 0.5;
   font-size: 4em;
@@ -61,7 +101,45 @@ select {
 select {
   height: 38px;
 }
+form {
+  width: 400px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
 
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+
+select {
+  height: 38px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
 button[type="submit"] {
   background-color: #4CAF50;
   color: white;
