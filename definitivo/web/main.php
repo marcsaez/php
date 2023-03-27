@@ -43,16 +43,17 @@
     <div class="container">
       <div class="square">
         <img src="terraform-logo.png" alt="Imagen 1">
-        <p>Descripción de la imagen 1ad</p>
-
+        <p>Wordpress en EC2 + RDS</p>
+        <button onclick="location.href='restar_puntos.php?user_id=<?php echo $_SESSION['user_id']; ?>&points=50&url=https://github.com/marcsaez/wordpress'">50 puntos</button>
       </div>
       <div class="square">
-        <img src="imagen2.jpg" alt="Imagen 2">
-        <p>Descripción de la imagen 2</p>
+        <img src="terraform-logo.png" alt="Imagen 2">
+        <p>Hosting en AWS con terraform</p>
+        <button onclick="location.href='restar_puntos.php?user_id=<?php echo $_SESSION['user_id']; ?>&points=50&url=https://github.com/marcsaez/cloud-msaez_vmerino/tree/main/01:apache_with_multipe_webs'">50 puntos</button>
       </div>
       <div class="square">
-        <img src="imagen3.jpg" alt="Imagen 3">
-        <p>Descripción de la imagen 3</p>
+        <img src="terraform-logo.png" alt="Imagen 3">
+        <p>Coming soon..</p>
       </div>
       <div class="square">
         <img src="yt.png" alt="Imagen 4">
@@ -61,13 +62,13 @@
       </div>
       <div class="square">
         <img src="yt.png" alt="Imagen 5">
-        <p>Descripción de la imagen 5</p>
-        <button onclick="location.href='https://youtu.be/6LOuvYpwYvU'">150 puntos</button>
+        <p>Un poco de mandanga</p>
+        <button onclick="location.href='restar_puntos.php?user_id=<?php echo $_SESSION['user_id']; ?>&points=150&url=https://youtu.be/WosrUnjb2UQ'">150 puntos</button>
       </div>
       <div class="square">
         <img src="yt.png" alt="Imagen 5">
-        <p>Descripción de la imagen 6</p>
-        <button onclick="location.href='https://youtu.be/6LOuvYpwYvU'">150 puntos</button>
+        <p>Aquí te pillo aquí temazo</p>
+        <button onclick="location.href='restar_puntos.php?user_id=<?php echo $_SESSION['user_id']; ?>&points=150&url=https://youtu.be/3KZyy8Oc1QA'">150 puntos</button>
       </div>
     </div>
 </body>
