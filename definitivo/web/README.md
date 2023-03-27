@@ -17,3 +17,6 @@ Es divideix en dues parts, la primera que extreu les dades de la sessió per con
 ## restar_puntos.php
 És una funció que rep tres paràmetres pel mètode GET: user_id (nom d'usuari), points (punts que 'val' aquell 'producte'), url (enllaç al produce digital).
 Simplement aquesta funció comprova que l'usari tingui els punts suficients per 'comprar' el producte, i si els té, redirigeix a l'usuari a l'enllaç del producte
+
+## Altres archius
+Imatges fetes servir a la web
