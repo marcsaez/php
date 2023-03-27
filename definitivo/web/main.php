@@ -23,12 +23,14 @@
     // }
 ?>
 
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Consultorio</title>
+	<title>Market</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css"></head>
+    <link rel="shortcut icon" href="baixa.jpeg">
 </head>
 <body>
     <nav>
@@ -41,7 +43,7 @@
     <div class="container">
       <div class="square">
         <img src="terraform-logo.png" alt="Imagen 1">
-        <p>Descripción de la imagen 1</p>
+        <p>Descripción de la imagen 1ad</p>
 
       </div>
       <div class="square">
@@ -54,15 +56,18 @@
       </div>
       <div class="square">
         <img src="yt.png" alt="Imagen 4">
-        <p>Descripción de la imagen 4</p>
+        <p>Quieres escuchar al mejor cantante de España?</p>
+        <button onclick="location.href='restar_puntos.php?user_id=<?php echo $_SESSION['user_id']; ?>&points=150&url=https://youtu.be/6LOuvYpwYvU'">150 puntos</button>
       </div>
       <div class="square">
         <img src="yt.png" alt="Imagen 5">
         <p>Descripción de la imagen 5</p>
+        <button onclick="location.href='https://youtu.be/6LOuvYpwYvU'">150 puntos</button>
       </div>
       <div class="square">
         <img src="yt.png" alt="Imagen 5">
         <p>Descripción de la imagen 6</p>
+        <button onclick="location.href='https://youtu.be/6LOuvYpwYvU'">150 puntos</button>
       </div>
     </div>
 </body>
