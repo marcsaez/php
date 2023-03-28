@@ -45,6 +45,9 @@ nav a{
   margin-top: 5px;
   width: 60%;
 }
+.square p {
+  line-height: 2em;
+}
 
 body {
   display: flex;
