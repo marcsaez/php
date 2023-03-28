@@ -46,7 +46,9 @@ nav a{
   width: 60%;
 }
 .square p {
+  display: block;
   line-height: 2em;
+  width: 100%;
 }
 
 body {
