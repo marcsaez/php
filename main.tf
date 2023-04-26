@@ -1,6 +1,6 @@
 # EC2 php
 resource "aws_instance" "php" {
-    ami           = data.aws_ami.ubuntu.id 
+    ami           = "ami-007855ac798b5175e" 
     instance_type = var.ec2_type
     key_name      = aws_key_pair.marc.key_name
     vpc_security_group_ids = [aws_security_group.hosting.id]
